@@ -12,7 +12,7 @@
 | **Tipo de geometría** | Polígono |
 | **Formato de archivo** | GeoJSON (fuente original: Shapefile) |
 | **Sistema de referencia** | EPSG:4326 (WGS84) para el GeoJSON del visor. Origen: WGS 84 UTM zona 13N (EPSG:32613) |
-| **Semestre** | 2026-2 (capa base, datos de 2025-2 / análisis municipal Jocotepec) |
+| **Semestre** | 2026-2 (capa base, datos de 2026-1 / análisis municipal Jocotepec) |
 
 ---
 

@@ -12,7 +12,7 @@
 | **Tipo de geometría** | Línea / Multilínea |
 | **Formato de archivo** | GeoJSON (fuente original: Shapefile) |
 | **Sistema de referencia** | EPSG:4326 (WGS84) para el GeoJSON del visor. Origen: Geográficas GRS 1980 (equivalente práctico a WGS84) |
-| **Semestre** | 2026-2 (capa base, datos de 2025-2 / análisis municipal Jocotepec) |
+| **Semestre** | 2026-2 (capa base, datos de 2026-1 / análisis municipal Jocotepec) |
 
 ---
 

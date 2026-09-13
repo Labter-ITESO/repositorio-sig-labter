@@ -12,7 +12,7 @@
 | **Tipo de geometría** | Línea / Multilínea (+4 GeometryCollection) |
 | **Formato de archivo** | GeoJSON (fuente original: Shapefile) |
 | **Sistema de referencia** | EPSG:4326 (WGS84) para el GeoJSON del visor. Origen: Sin archivo .prj en la fuente; se asumió Lambert Conformal Conic México (EPSG:6372, proyección estándar de INEGI) tras validar que así el trazado cae correctamente sobre Jocotepec. **Verificar este supuesto si se detectan desalineaciones.** |
-| **Semestre** | 2026-2 (capa base, datos de 2025-2 / análisis municipal Jocotepec) |
+| **Semestre** | 2026-2 (capa base, datos de 2026-1 / análisis municipal Jocotepec) |
 
 ---
 
