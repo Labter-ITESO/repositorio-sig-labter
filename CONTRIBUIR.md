@@ -4,8 +4,8 @@ Este documento resume cómo colaborar en el repositorio. Para el flujo completo 
 
 ## Resumen
 
-1. Clona el repositorio: `git clone https://github.com/agil-iteso/repositorio-sig-labter.git`
-2. Abre `semestre-2026-2/qgis-projects/PAP-Labter.qgs` en QGIS
+1. Clona el repositorio: `git clone https://github.com/labter-ITESO/repositorio-sig-labter.git`
+2. Abre `semestre-2026-2/qgis-projects/PAP-labter.qgz` en QGIS
 3. Edita o crea tu capa
 4. Expórtala también a **GeoJSON** (CRS EPSG:4326) — el visor web la necesita en ese formato
 5. Documenta con `README.md` en la carpeta de la capa (usa [PLANTILLA-METADATA-capa.md](PLANTILLA-METADATA-capa.md))
@@ -16,7 +16,7 @@ Este documento resume cómo colaborar en el repositorio. Para el flujo completo 
    git commit -m "Descripción clara de tu cambio"
    git push origin main
    ```
-8. Verifica en el visor web: https://agil-iteso.github.io/repositorio-sig-labter/visor-web/
+8. Verifica en el visor web: https://labter-iteso.github.io/repositorio-sig-labter/visor-web/
 
 ## Reglas básicas
 

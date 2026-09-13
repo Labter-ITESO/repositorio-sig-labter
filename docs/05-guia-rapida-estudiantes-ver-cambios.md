@@ -26,7 +26,7 @@ Visor web muestra tus cambios ✓
 
 ```bash
 # Abre tu proyecto QGIS
-qgis semestre-2026-2/qgis-projects/PAP-Labter.qgs
+qgis semestre-2026-2/qgis-projects/PAP-labter.qgz
 ```
 
 - Selecciona la capa que quieres editar
@@ -67,7 +67,7 @@ GitHub Pages reconstruye el sitio solo cuando detecta el push — normalmente to
 
 ### 5️⃣ Abre el visor web
 
-Accede a: **https://agil-iteso.github.io/repositorio-sig-labter/visor-web/**
+Accede a: **https://labter-iteso.github.io/repositorio-sig-labter/visor-web/**
 
 - Si ya lo tenías abierto, refresca con `Ctrl+F5` (recarga forzada, evita que el navegador use una copia en caché)
 - ¡Verás tus cambios reflejados! 🎉

@@ -1,3 +1,7 @@
+> ⚠️ **Documento archivado / obsoleto.** Pertenece al plan original con QGIS Server / sincronización manual. La arquitectura actual (Fase 0, desde agosto 2026) usa GeoJSON + GitHub Pages sin servidor — ver `../README.md` y `../CONTRIBUIR.md`. Se conserva aquí solo como referencia por si se retoma QGIS Server o se migra a GeoNode más adelante.
+
+---
+
 # 🔍 Análisis: Acceso Descentralizado para Estudiantes
 
 ## El Problema Real
@@ -352,7 +356,7 @@ Estudiantes →[editan en QGIS local]→ git push
 mkdir repositorio-sig-labter
 cd repositorio-sig-labter
 git init
-git remote add origin https://github.com/agil-iteso/repositorio-sig-labter.git
+git remote add origin https://github.com/labter-ITESO/repositorio-sig-labter.git
 
 # Crear estructura base
 mkdir -p semestre-2024-2/datos/{uso-suelo,vialidad}
@@ -460,9 +464,9 @@ ssh ubuntu@sig.iteso.mx "cd /var/www/qgis-projects && pwd"
 
 ```bash
 # En su PC
-git clone https://github.com/agil-iteso/repositorio-sig-labter.git
+git clone https://github.com/labter-ITESO/repositorio-sig-labter.git
 cd repositorio-sig-labter
-qgis semestre-2024-2/qgis-projects/PAP-Labter.qgs
+qgis semestre-2024-2/qgis-projects/PAP-labter.qgz
 
 # Edita una capa (ej: vialidad)
 # Guarda en QGIS (Ctrl+S)

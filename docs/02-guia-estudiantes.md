@@ -35,7 +35,7 @@ git config --global user.email "tu@iteso.mx"
 cd ~/Documents/
 
 # Clona el repositorio (descarga TODAS las capas del semestre anterior):
-git clone https://github.com/agil-iteso/repositorio-sig-labter.git
+git clone https://github.com/labter-ITESO/repositorio-sig-labter.git
 
 # Entra a la carpeta:
 cd repositorio-sig-labter
@@ -52,7 +52,7 @@ cd repositorio-sig-labter
 ```bash
 # Desde la carpeta del repositorio:
 cd semestre-2026-2/qgis-projects/
-qgis PAP-Labter.qgs &
+qgis PAP-labter.qgz &
 ```
 
 Se abrirá QGIS con todas las capas del semestre.
@@ -186,7 +186,7 @@ Y ya tienes 100% de las capas anteriores disponibles en `semestre-2027-1/`.
 
 ### ❌ "QGIS no encuentra las capas"
 
-**Solución**: Asegúrate de que las rutas en `PAP-Labter.qgs` sean correctas:
+**Solución**: Asegúrate de que las rutas en `PAP-labter.qgz` sean correctas:
 - En QGIS: **Layer → Layer Properties → Source**
 - Las rutas deben ser **relativas**, no absolutas
 
@@ -224,7 +224,7 @@ git checkout main
 
 El visor web se publica automáticamente con GitHub Pages en:
 
-**https://agil-iteso.github.io/repositorio-sig-labter/visor-web/**
+**https://labter-iteso.github.io/repositorio-sig-labter/visor-web/**
 
 Allí podrás:
 - Ver todas las capas registradas del semestre actual

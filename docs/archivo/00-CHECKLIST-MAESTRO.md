@@ -1,3 +1,7 @@
+> ⚠️ **Documento archivado / obsoleto.** Pertenece al plan original con QGIS Server / sincronización manual. La arquitectura actual (Fase 0, desde agosto 2026) usa GeoJSON + GitHub Pages sin servidor — ver `../README.md` y `../CONTRIBUIR.md`. Se conserva aquí solo como referencia por si se retoma QGIS Server o se migra a GeoNode más adelante.
+
+---
+
 # ✅ Checklist Único de Implementación
 ## Sistema SIG Colaborativo — ITESO
 
@@ -11,7 +15,7 @@ Este es el **plan consolidado final** (fusiona el plan original + el ajuste de s
   ```bash
   mkdir repositorio-sig-labter && cd repositorio-sig-labter
   git init
-  git remote add origin https://github.com/agil-iteso/repositorio-sig-labter.git
+  git remote add origin https://github.com/labter-ITESO/repositorio-sig-labter.git
   ```
 - [ ] Crear estructura base de carpetas (`repositorio-estructura.md`)
 - [ ] Copiar `sync-qgis-server.yml` a `.github/workflows/sync-qgis-server.yml`
@@ -43,7 +47,7 @@ Este es el **plan consolidado final** (fusiona el plan original + el ajuste de s
 ## 📅 Semana 2: Estructura de Datos + Metadatos
 
 - [ ] Crear carpeta `semestre-2024-2/` con estructura de capas
-- [ ] Cargar proyecto QGIS base (`PAP-Labter.qgs`) con capas iniciales
+- [ ] Cargar proyecto QGIS base (`PAP-labter.qgz`) con capas iniciales
 - [ ] Aplicar plantilla de metadatos (`PLANTILLA-METADATA-capa.md`) a cada capa existente
 - [ ] Llenar `metadatos.csv` con inventario inicial
 

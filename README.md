@@ -17,11 +17,11 @@ Este es un **repositorio colaborativo para estudiantes de planeación territoria
 
 ```bash
 # 1. Clona el repositorio
-git clone https://github.com/agil-iteso/repositorio-sig-labter.git
+git clone https://github.com/labter-ITESO/repositorio-sig-labter.git
 cd repositorio-sig-labter
 
 # 2. Abre QGIS y carga el proyecto base
-qgis semestre-2026-2/qgis-projects/PAP-Labter.qgs
+qgis semestre-2026-2/qgis-projects/PAP-labter.qgz
 
 # 3. Edita capas y haz cambios
 # (sigue docs/02-guia-estudiantes.md)
@@ -60,7 +60,7 @@ repositorio-sig-labter/
 │
 ├── semestre-2026-2/                   ← ACTUAL
 │   ├── qgis-projects/
-│   │   └── PAP-Labter.qgs              (Proyecto QGIS)
+│   │   └── PAP-labter.qgz              (Proyecto QGIS)
 │   ├── datos/
 │   │   ├── uso-suelo/                (Capas por categoría)
 │   │   ├── limites-administrativos/
@@ -80,12 +80,13 @@ repositorio-sig-labter/
 │   └── config.json                    (lista de capas visibles en el visor)
 │
 └── docs/
-    ├── 00-CHECKLIST-MAESTRO.md
-    ├── 01-instalacion-qgis-server.md  (Fase futura, opcional)
     ├── 02-guia-estudiantes.md
     ├── 03-migracion-a-geonode.md      (Fase futura, opcional)
-    ├── 04-acceso-descentralizado-analisis.md
-    └── 05-guia-rapida-estudiantes-ver-cambios.md
+    ├── 05-guia-rapida-estudiantes-ver-cambios.md
+    └── archivo/                       (docs del plan original con servidor, ya no vigente)
+        ├── 00-CHECKLIST-MAESTRO.md
+        ├── 01-instalacion-qgis-server.md
+        └── 04-acceso-descentralizado-analisis.md
 ```
 
 ---
@@ -109,7 +110,7 @@ repositorio-sig-labter/
    - Crear tags de versión final
    - Generar reportes
 
-2. **[docs/03-migracion-a-geonode.md](docs/03-migracion-a-geonode.md)** y **[docs/01-instalacion-qgis-server.md](docs/01-instalacion-qgis-server.md)**
+2. **[docs/03-migracion-a-geonode.md](docs/03-migracion-a-geonode.md)** y **[docs/archivo/01-instalacion-qgis-server.md](docs/archivo/01-instalacion-qgis-server.md)**
    - Fases futuras opcionales, solo relevantes cuando el proyecto crezca (40-50+ capas, rasters, edición simultánea)
 
 ---
@@ -118,13 +119,13 @@ repositorio-sig-labter/
 
 Se publica gratis con **GitHub Pages**, sin necesidad de servidor propio. Una vez activado (Settings → Pages en tu repositorio de GitHub), la URL será:
 
-**https://agil-iteso.github.io/repositorio-sig-labter/visor-web/**
+**https://labter-iteso.github.io/repositorio-sig-labter/visor-web/**
 
 **Características:**
 - 📊 Visualizar las capas del semestre actual (lee `visor-web/config.json`)
 - 🔍 Ver metadatos de cada capa (fuente, fecha, autor, escala)
 - ✅ Se actualiza solo, unos segundos después de cada `git push`
-- ⚠️ Solo capas vectoriales en formato GeoJSON (puntos, líneas, polígonos). Los rasters (ej. mapas de inundación en `.tif`) requieren la fase con servidor — ver `docs/01-instalacion-qgis-server.md`.
+- ⚠️ Solo capas vectoriales en formato GeoJSON (puntos, líneas, polígonos). Los rasters (ej. mapas de inundación en `.tif`) requieren la fase con servidor — ver `docs/archivo/01-instalacion-qgis-server.md`.
 
 ---
 
@@ -143,7 +144,7 @@ Se publica gratis con **GitHub Pages**, sin necesidad de servidor propio. Una ve
 
 ### Fase 1 (opcional, cuando tengan servidor): QGIS Server + Git
 
-Agrega publicación WMS/WFS, soporte de rasters y sincronización automática vía GitHub Actions. Ver `docs/01-instalacion-qgis-server.md`.
+Agrega publicación WMS/WFS, soporte de rasters y sincronización automática vía GitHub Actions. Ver `docs/archivo/01-instalacion-qgis-server.md`.
 
 ### Fase 2 (opcional, 50+ capas): GeoNode
 
