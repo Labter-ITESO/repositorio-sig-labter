@@ -3,19 +3,162 @@
   "semestres": {
     "2026-2": {
       "nombre": "2026-2 (Actual)",
-      "capas": [  
-       {
-     "id": "prueba",
-     "nombre": "Capa de prueba",
-     "grupo": "Pruebas",
-     "archivo": "../semestre-2026-2/datos/prueba/prueba.geojson",
-     "visible": true,
-     "fuente": "Prueba manual",
-     "fecha": "2026-08",
-     "autor": "Tu nombre",
-     "escala": "1:50,000"
-    }
-  ]
+      "capas": [
+        {
+          "id": "prueba",
+          "nombre": "Capa de prueba",
+          "grupo": "Pruebas",
+          "archivo": "../semestre-2026-2/datos/prueba/prueba.geojson",
+          "visible": true,
+          "fuente": "Prueba manual",
+          "fecha": "2026-08",
+          "autor": "Tu nombre",
+          "escala": "1:50,000"
+        },
+        {
+          "id": "limite-municipal-jocotepec",
+          "nombre": "Límite municipal (Jocotepec)",
+          "grupo": "Límites administrativos",
+          "archivo": "../semestre-2026-2/datos/limite-municipal-jocotepec/limite-municipal-jocotepec.geojson",
+          "visible": true,
+          "fuente": "INEGI - Marco Geoestadístico",
+          "fecha": "2026-09",
+          "autor": "Aldo Gil (recorte de fuentes INEGI/CONAPO, análisis municipal Jocotepec)",
+          "escala": "N/D (verificar)"
+        },
+        {
+          "id": "localidades-rurales-jocotepec",
+          "nombre": "Localidades rurales (Jocotepec)",
+          "grupo": "Límites administrativos",
+          "archivo": "../semestre-2026-2/datos/localidades-rurales-jocotepec/localidades-rurales-jocotepec.geojson",
+          "visible": true,
+          "fuente": "INEGI - Censo de Población y Vivienda 2020 (SCINCE)",
+          "fecha": "2026-09",
+          "autor": "Aldo Gil (recorte de fuentes INEGI/CONAPO, análisis municipal Jocotepec)",
+          "escala": "N/D (verificar)"
+        },
+        {
+          "id": "localidades-urbanas-jocotepec",
+          "nombre": "Localidades urbanas (Jocotepec)",
+          "grupo": "Límites administrativos",
+          "archivo": "../semestre-2026-2/datos/localidades-urbanas-jocotepec/localidades-urbanas-jocotepec.geojson",
+          "visible": true,
+          "fuente": "INEGI - Censo de Población y Vivienda 2020 (SCINCE)",
+          "fecha": "2026-09",
+          "autor": "Aldo Gil (recorte de fuentes INEGI/CONAPO, análisis municipal Jocotepec)",
+          "escala": "N/D (verificar)"
+        },
+        {
+          "id": "manzanas-jocotepec",
+          "nombre": "Manzanas censales (Jocotepec)",
+          "grupo": "Límites administrativos",
+          "archivo": "../semestre-2026-2/datos/manzanas-jocotepec/manzanas-jocotepec.geojson",
+          "visible": false,
+          "fuente": "INEGI - Censo de Población y Vivienda 2020 (SCINCE), manzanas",
+          "fecha": "2026-09",
+          "autor": "Aldo Gil (recorte de fuentes INEGI/CONAPO, análisis municipal Jocotepec)",
+          "escala": "N/D (verificar)"
+        },
+        {
+          "id": "red-vial-jocotepec",
+          "nombre": "Red vial (Jocotepec)",
+          "grupo": "Infraestructura",
+          "archivo": "../semestre-2026-2/datos/red-vial-jocotepec/red-vial-jocotepec.geojson",
+          "visible": true,
+          "fuente": "INEGI - Red Nacional de Caminos, ed. 1 (Jalisco)",
+          "fecha": "2026-09",
+          "autor": "Aldo Gil (recorte de fuentes INEGI/CONAPO, análisis municipal Jocotepec)",
+          "escala": "1:250,000"
+        },
+        {
+          "id": "geologia-jocotepec",
+          "nombre": "Geología (Jocotepec)",
+          "grupo": "Medio natural",
+          "archivo": "../semestre-2026-2/datos/geologia-jocotepec/geologia-jocotepec.geojson",
+          "visible": false,
+          "fuente": "INEGI - Carta Geológica, Serie I",
+          "fecha": "2026-09",
+          "autor": "Aldo Gil (recorte de fuentes INEGI/CONAPO, análisis municipal Jocotepec)",
+          "escala": "1:250,000"
+        },
+        {
+          "id": "edafologia-jocotepec",
+          "nombre": "Edafología (Jocotepec)",
+          "grupo": "Medio natural",
+          "archivo": "../semestre-2026-2/datos/edafologia-jocotepec/edafologia-jocotepec.geojson",
+          "visible": false,
+          "fuente": "INEGI - Carta Edafológica",
+          "fecha": "2026-09",
+          "autor": "Aldo Gil (recorte de fuentes INEGI/CONAPO, análisis municipal Jocotepec)",
+          "escala": "1:250,000"
+        },
+        {
+          "id": "hidrografia-jocotepec",
+          "nombre": "Hidrografía (Jocotepec)",
+          "grupo": "Medio natural",
+          "archivo": "../semestre-2026-2/datos/hidrografia-jocotepec/hidrografia-jocotepec.geojson",
+          "visible": true,
+          "fuente": "INEGI - Red Hidrográfica (RH12)",
+          "fecha": "2026-09",
+          "autor": "Aldo Gil (recorte de fuentes INEGI/CONAPO, análisis municipal Jocotepec)",
+          "escala": "N/D (verificar)"
+        },
+        {
+          "id": "uso-suelo-vegetacion-jocotepec",
+          "nombre": "Uso de suelo y vegetación (Jocotepec)",
+          "grupo": "Medio natural",
+          "archivo": "../semestre-2026-2/datos/uso-suelo-vegetacion-jocotepec/uso-suelo-vegetacion-jocotepec.geojson",
+          "visible": true,
+          "fuente": "INEGI - Uso de Suelo y Vegetación, Serie V",
+          "fecha": "2026-09",
+          "autor": "Aldo Gil (recorte de fuentes INEGI/CONAPO, análisis municipal Jocotepec)",
+          "escala": "1:250,000"
+        },
+        {
+          "id": "cultura-jocotepec",
+          "nombre": "Cultura (Jocotepec)",
+          "grupo": "Socioeconómico",
+          "archivo": "../semestre-2026-2/datos/cultura-jocotepec/cultura-jocotepec.geojson",
+          "visible": false,
+          "fuente": "INEGI - DENUE",
+          "fecha": "2026-09",
+          "autor": "Aldo Gil (recorte de fuentes INEGI/CONAPO, análisis municipal Jocotepec)",
+          "escala": "Puntual (DENUE, sin escala fija)"
+        },
+        {
+          "id": "educacion-jocotepec",
+          "nombre": "Educación (Jocotepec)",
+          "grupo": "Socioeconómico",
+          "archivo": "../semestre-2026-2/datos/educacion-jocotepec/educacion-jocotepec.geojson",
+          "visible": false,
+          "fuente": "INEGI - DENUE",
+          "fecha": "2026-09",
+          "autor": "Aldo Gil (recorte de fuentes INEGI/CONAPO, análisis municipal Jocotepec)",
+          "escala": "Puntual (DENUE, sin escala fija)"
+        },
+        {
+          "id": "salud-jocotepec",
+          "nombre": "Salud (Jocotepec)",
+          "grupo": "Socioeconómico",
+          "archivo": "../semestre-2026-2/datos/salud-jocotepec/salud-jocotepec.geojson",
+          "visible": false,
+          "fuente": "INEGI - DENUE",
+          "fecha": "2026-09",
+          "autor": "Aldo Gil (recorte de fuentes INEGI/CONAPO, análisis municipal Jocotepec)",
+          "escala": "Puntual (DENUE, sin escala fija)"
+        },
+        {
+          "id": "marginacion-colonia-jocotepec",
+          "nombre": "Marginación por colonia (Jocotepec)",
+          "grupo": "Socioeconómico",
+          "archivo": "../semestre-2026-2/datos/marginacion-colonia-jocotepec/marginacion-colonia-jocotepec.geojson",
+          "visible": false,
+          "fuente": "CONAPO Jalisco - Índice de Marginación Urbana por Colonia 2020",
+          "fecha": "2026-09",
+          "autor": "Aldo Gil (recorte de fuentes INEGI/CONAPO, análisis municipal Jocotepec)",
+          "escala": "N/D (verificar)"
+        }
+      ]
     }
   }
 }
