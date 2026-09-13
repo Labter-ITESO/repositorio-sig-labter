@@ -1,20 +1,9 @@
 {
   "semestreActual": "2026-2",
   "semestres": {
-    "2026-2": {
-      "nombre": "2026-2 (Actual)",
+    "2026-1": {
+      "nombre": "2026-1 (Capas base)",
       "capas": [
-        {
-          "id": "prueba",
-          "nombre": "Capa de prueba",
-          "grupo": "Pruebas",
-          "archivo": "../semestre-2026-2/datos/prueba/prueba.geojson",
-          "visible": true,
-          "fuente": "Prueba manual",
-          "fecha": "2026-08",
-          "autor": "Tu nombre",
-          "escala": "1:50,000"
-        },
         {
           "id": "limite-municipal-jocotepec",
           "nombre": "Límite municipal (Jocotepec)",
@@ -157,6 +146,22 @@
           "fecha": "2026-09",
           "autor": "Aldo Gil (recorte de fuentes INEGI/CONAPO, análisis municipal Jocotepec)",
           "escala": "N/D (verificar)"
+        }
+      ]
+    },
+    "2026-2": {
+      "nombre": "2026-2 (Actual)",
+      "capas": [
+        {
+          "id": "prueba",
+          "nombre": "Capa de prueba",
+          "grupo": "Pruebas",
+          "archivo": "../semestre-2026-2/datos/prueba/prueba.geojson",
+          "visible": true,
+          "fuente": "Prueba manual",
+          "fecha": "2026-08",
+          "autor": "Tu nombre",
+          "escala": "1:50,000"
         }
       ]
     }
